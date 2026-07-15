@@ -136,7 +136,7 @@ The RDS MySQL instance was configured with:
 - No Multi-AZ standby
 - No read replica
 
-The database credentials were not stored in GitHub or hardcoded in the Python program.
+I did not store database credentials in GitHub or coded them in the Python program.
 
 ## Python Inventory Demonstration
 
@@ -337,7 +337,7 @@ This project helped me practise:
 
 The AWS console displayed an estimated monthly cost for running the RDS configuration continuously.
 
-This project was operated only long enough to:
+I used this project only long enough to:
 
 - Create the resources
 - Verify the network restrictions
@@ -345,18 +345,6 @@ This project was operated only long enough to:
 - Capture deployment evidence
 
 After testing, the following resources were removed:
-
-- RDS database
-- RDS snapshots and retained backups
-- EC2 instance
-- EBS volume
-- Temporary public IPv4 address
-- DB subnet group
-- Security Groups
-- Subnets and route tables
-- Internet Gateway
-- Project VPC
-- EC2 key pair
 
 The source code, architecture diagram and screenshots preserve the project after the paid AWS resources are removed.
 
@@ -374,8 +362,5 @@ Possible improvements include:
 - Define the infrastructure using Terraform or AWS CloudFormation
 - Add automated deployment and cleanup
 
-These improvements were excluded from the first version to keep the project focused on private networking and Security Group-controlled database access.
+I excluded these improvements from the first version to keep the project focused on private networking and Security Group-controlled database access.
 
-## CV Summary
-
-**Secure Private Database** — Configured a MySQL database on Amazon RDS across private VPC subnets, restricted database access to an authorized EC2 Security Group, and verified connectivity using a Python inventory demonstration.
