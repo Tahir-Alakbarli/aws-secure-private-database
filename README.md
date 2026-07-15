@@ -233,7 +233,7 @@ The database configuration shows that public accessibility is disabled and that 
 
 Both private subnet route tables contain only the local VPC route. Neither private subnet has an Internet Gateway or NAT Gateway route.
 
-![Private route table A](screenshots/ReouteTable1.png)
+![Private route table A](screenshots/RouteTable1.png)
 
 ![Private route table B](screenshots/RouteTable2.png)
 
